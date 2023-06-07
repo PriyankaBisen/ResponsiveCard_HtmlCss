@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.col{
+    float: left;
+    width:25% ;
+    padding: 0 10px;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    color:black ;
+    border:1px solid black ;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: large;
+}
+/* .card:hover{
+    background-color: rgb(219,57,57);
+    color: white;
+} */
+.card .a:hover{
+background-color: blue;
+color: white;
+}
+.card .b:hover{
+    background-color:pink;
+    color:white ;
+    }
+    .card .c:hover{
+        background-color:red;
+        color: white;
+        }
+        .card .d:hover{
+            background-color:gold;
+            color: white;
+            } 
+@media screen and(max-width:600px){
+.col{
+   width:100% ;
+   display: flex; 
+   margin-bottom:20px ;
+
+}
+}
